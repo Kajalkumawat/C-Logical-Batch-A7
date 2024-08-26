@@ -1,0 +1,80 @@
+increment / decrement : 
+
+two ways :
+a++		++a 
+a--		--a 
+
+#include<stdio.h>
+int main(){
+    int a=1;
+    printf("%d",a++);
+    return 0;
+}
+---------------------------------------------
+#include<stdio.h>
+int main(){
+    int a=1;
+   printf("%d ",a++);
+   printf("%d",++a);
+    return 0;
+}
+---------------------------------------------
+#include<stdio.h>
+int main(){
+    int a=1;
+  printf("%d ",a++ + ++a);
+    return 0;
+}
+--------------------------------------------------------------------
+while loop :
+
+syntax: 
+
+while(condition){
+
+//code 
+
+}
+
+#include<stdio.h>
+int main(){
+   // 1 2 3 4 5 
+   int a=1;
+   while(a<=5){
+       printf("%d ",a);
+       a++;
+   }
+    return 0;
+}
+-----------------------------------------------------------------------
+5 4 3 2 1 
+#include<stdio.h>
+int main(){
+  //5 4 3 2 1 
+  int a=5;
+  while(a>=1){
+      printf("%d ",a);
+      a--;
+  }
+    return 0;
+}
+-----------------------------------------------------------------------
+even number : 1---> 5 
+
+#include<stdio.h>
+int main(){
+int a=1;
+while(a<=5){
+   if(a%2==0){
+        printf("%d ",a);
+   }
+    a++;
+}
+    return 0;
+}
+
+
+
+
+
+

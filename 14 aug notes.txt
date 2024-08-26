@@ -1,0 +1,100 @@
+comments :
+->ignore compiler 
+
+two type :
+a)single line comment // 
+
+b)multiline comment /*		*/ 
+
+#include <stdio.h>
+int main()
+{
+    //basic code 
+    /*
+    this is the basic code 
+    print hello world 
+    */
+    printf("Hello World");
+
+    return 0;
+}
+--------------------------------------------------------------
+basic concepts : 
+#include <stdio.h>
+int main()
+{
+   int a=1;
+   printf("%f",a);
+    return 0;
+}
+
+--------------------------------------------------------------
+#include <stdio.h>
+int main()
+{
+   int a=1;
+   int a=78;
+   printf("%d",a);
+    return 0;
+}
+always variable name unique 
+--------------------------------------------------------------
+value reassign concept :
+#include <stdio.h>
+int main()
+{
+   int a=1;
+    a=78;
+   printf("%d",a);
+    return 0;
+}
+--------------------------------------------------------------
+copy of value :
+#include <stdio.h>
+int main()
+{
+   int a=81;
+   int b=a;
+   printf("%d\n",a);
+      printf("%d\n",b);
+    return 0;
+}
+--------------------------------------------------------------
+swap number without third variable: 
+#include <stdio.h>
+int main()
+{
+   int a=10;
+   int b=20;
+    printf("the  value of a is :%d\n",a);
+     printf("the  value of b is :%d\n",b);
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   printf("the swap value of a is :%d\n",a);
+    printf("the swap value of b is :%d\n",b);
+    return 0;
+}
+--------------------------------------------
+swap number with third variable : 
+#include <stdio.h>
+int main()
+{
+   int a=10;
+   int b=20;
+   int c;
+    printf("the  value of a is :%d\n",a);
+     printf("the  value of b is :%d\n",b);
+   c=a;
+   a=b;
+   b=c;
+   printf("the swap value of a is :%d\n",a);
+    printf("the swap value of b is :%d\n",b);
+    return 0;
+}
+
+
+
+
+
+

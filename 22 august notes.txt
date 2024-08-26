@@ -1,0 +1,80 @@
+=>if else if :
+->if we want to give multiple conditions in code used if else if 
+
+syntax :
+if(condition1){
+
+}
+else if(condition2){
+
+}
+else if(condition n){
+
+}
+else{
+
+}
+--------------------------------------------------------------------
+user input number : 
+1 :one 
+2 :two
+3 :three
+
+input is not valid 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    if(a==1){
+        printf("one");
+    }
+    else if(a==2){
+        printf("two");
+    }
+    else if(a==3){
+        printf("three");
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+a :apple 
+b :ball
+c :cat 
+input is not valid 
+
+#include<stdio.h>
+int main(){
+   char a;
+   printf("enter any single character ");
+   scanf("%c",&a);
+   if(a=='a'){
+       printf("apple");
+   }
+   else if(a=='b'){
+       printf("ball");
+   }
+   else if(a=='c'){
+       printf("cat");
+   }
+   else{
+       printf("input is not valid ");
+   }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

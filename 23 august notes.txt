@@ -1,0 +1,142 @@
+nested if : 
+syntax :
+if(condition1){
+
+	if(condition2){
+	//code 
+}
+}
+------------------------------------------------------------
+user input : 
+	age greater than 18 
+
+user input :
+	weight greater than 50 
+
+		valid 
+#include <stdio.h>
+int main() {
+    int age;
+    printf("enter the value of age");
+    scanf("%d",&age);
+    if(age>18){
+        //input weight 
+        int weight;
+        printf("enter the weight");
+        scanf("%d",&weight);
+        if(weight>50){
+            printf("you are valid ");
+        }
+    }
+    return 0;
+}
+----------------------------------------------------------------
+#include <stdio.h>
+int main() {
+    int age;
+    printf("enter the value of age");
+    scanf("%d",&age);
+    if(age>18){
+        //input weight 
+        int weight;
+        printf("enter the weight");
+        scanf("%d",&weight);
+        if(weight>50){
+            printf("you are valid ");
+        }
+        else{
+            printf("please input weight greater than 50");
+        }
+    }
+    else{
+        printf("please input the age greater than 18");
+    }
+    return 0;
+}
+----------------------------------------------------------------------------------
+#include<stdio.h>
+int main(){
+    //input character 
+    char a;
+    printf("enter any single character");
+    scanf("%c",&a);
+    if(a=='e'){
+        //even number 
+        int num;
+        printf("enter any number");
+        scanf("%d",&num);
+        if(num%2==0){
+            printf("even number");
+        }
+        else{
+            printf("odd number");
+        }
+    }
+    else if(a=='y'){
+        printf("hello");
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+----------------------------------------------------------------------------------------
+Loops : 
+->when make condtions and when a condition become true then run continuously then condition become false then loop will be termiated
+
+types :  
+entry control :when make condtions and when a condition become true then run continuously then condition become false then loop will be termiated
+
+	while , for 
+
+exit control: it must be run one time 
+	do while 
+
+----------------------------------------------------------------------------------------
+concept :
+
+a)value initialization
+b)condition
+c)increment / decrement
+
+a)value initialization
+	int a=9;
+
+b)condition
+	a>10 
+
+c)increment / decrement 
+ 
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

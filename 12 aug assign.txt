@@ -1,0 +1,36 @@
+1)
+-56 
+
+
+2)
+r
+
+3)
+2.532
+
+4)
+34
+-2.34
+t 
+
+5)
+34+89
+
+6)23-5
+
+
+7)
+56*2 
+
+8)
+45/5 
+
+10)
+23+89+12+56
+
+
+1)what is compiler ?
+2)what is machine  code in c ?
+3)what is data type ? 
+4)what is variable ?
+5)what is the features of c ? 

@@ -1,0 +1,111 @@
+1 :one 
+	input is not valid 
+----------------------------------------------------------
+4 :four 
+	input is not valid 
+----------------------------------------------------------
+a : apple 
+	input is not valid 
+-----------------------------------------------
+b :ball
+	input is not valid 
+-----------------------------------------------
+t :tiger
+	input is not valid 
+-----------------------------------------------
+a :
+	two number input 
+	then addition 
+input is not valid 
+-----------------------------------------------
+s :
+	two number input 
+	then substraction 
+input is not valid 
+-----------------------------------------------
+m :
+	two number input 
+	then multiplication 
+input is not valid 
+-----------------------------------------------
+d :
+	two number input 
+	then division 
+input is not valid 
+-----------------------------------------------
+o :
+	two number input 
+	then modular 
+input is not valid 
+-----------------------------------------------
+s :
+	two number input 
+	then swap without third variable  
+input is not valid 
+-----------------------------------------------
+s :
+	two number input 
+	then swap with third variable  
+input is not valid 
+-----------------------------------------------
+write a c program check a character is vowel and consonant ?
+
+-----------------------------------------------
+write a c program input any single character when input q,w,e,r,t,y,u,i,o,p :print upper line otherwise input is not valid ? 
+
+-----------------------------------------------
+write a c program input any single character when input a,s,d,f,g,,j,l :print mid line otherwise input is not valid ? 
+
+-----------------------------------------------
+write a c program input any single character when input p,e,a,k :print peak word otherwise input is not valid ? 
+-----------------------------------------------
+input any number and check a number is divisible by 6 and 4 both : 
+-----------------------------------------------
+input any number and check a number is divisible by 6 and 4 anyone : 
+-----------------------------------------------
+input any number and check a number is divisible by 5 and 11 both : 
+-----------------------------------------------
+user input :1---->10 
+	this number is present in between 1 to 10 
+
+-----------------------------------------------
+user input :11---->20
+	this number is present in between 11 to 20
+
+-----------------------------------------------
+input number 5 input 
+	greater 36 passing marks 
+		pass
+	otherwise fail 
+-----------------------------------------------
+input number 5 input 
+	find percentage
+	greater 60 abover passing marks 
+		pass
+	otherwise fail 
+-----------------------------------------------
+input five number greater 40 
+	average calculate krey 
+
+	otherwise fail 
+-----------------------------------------------
+input five number greater 40 
+	average percentage krey 
+
+	otherwise fail 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

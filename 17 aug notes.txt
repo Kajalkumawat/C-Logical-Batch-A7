@@ -1,0 +1,214 @@
+user input :
+#include<stdio.h>
+int main(){
+    int a;
+    //print :print only in the console part 
+    printf("enter the value of a ");
+    //scanf :it is used for user input 
+    scanf("%d",&a);
+    return 0;
+}
+-----------------------------------------------------------------
+char : 
+#include<stdio.h>
+int main(){
+   char a;
+   printf("enter any single character");
+   scanf("%c",&a);
+   //& :address btaney ka kaam 
+    return 0;
+}
+-----------------------------------------------------------------
+float : 
+#include<stdio.h>
+int main(){
+   float a;
+   printf("enter the value of a ");
+   scanf("%f",&a);
+    return 0;
+}
+-----------------------------------------------------------------
+two number addition :user input 
+#include<stdio.h>
+int main(){
+   int a;
+   printf("enter the value of a ");
+   scanf("%d",&a);
+   int b;
+   printf("enter the value of b ");
+   scanf("%d",&b);
+   int c=a+b;
+   printf("%d",c);
+    return 0;
+}
+-----------------------------------------------------------------
+2.3*(7.8-7)+2.3-5
+
+#include<stdio.h>
+int main(){
+    float a;
+    printf("enter the decimal value of a ");
+    scanf("%f",&a);
+    float b;
+    printf("enter the decimal value of b ");
+    scanf("%f",&b);
+    int c;
+    printf("enter the number of c ");
+    scanf("%d",&c);
+    float d;
+    printf("enter the decimal value of d");
+    scanf("%f",&d);
+    int e;
+    printf("enter the  value of e");
+    scanf("%d",&e);
+    float result=a*(b-c)+d-e;
+    printf("%f",result);
+    return 0;
+}
+-------------------------------------------------------------------
+control statements :
+->it is used to make conditions and check condition will be true or false.
+
+types :
+a)decision making 
+b)loop
+c)jumping statements 
+
+-------------------------------------------------------------------
+a)decision making 
+	i)if 
+		simple if 
+		if else 
+		if else if 
+		nested if 
+
+	ii)switch
+b)loop
+	entry control
+		for , while loop 
+ 
+	exit control 
+		do while loop 
+
+c)jumping statements 
+	break 
+	continue 
+-----------------------------------------------------------------
+a)decision making :
+->it is used to make conditions and check condition will be true or not 
+
+simple if :
+->it is keyword 
+->always work on true condition
+->it is used to make conditions 
+->it is used to check condition 
+
+syntax: 
+if(condition)
+{
+	//code 
+}
+---------------------------------------------------------------
+write a c program and check number is greater than 10 ? 
+#include<stdio.h>
+int main(){
+   int num;
+   printf("enter the value of num");
+   scanf("%d",&num);
+   if(num>10){
+       printf("this number is greater than 10");
+   }
+    return 0;
+}
+---------------------------------------------------------------
+2)if else :
+if : 
+->it is keyword 
+->always work on true condition
+->it is used to make conditions 
+->it is used to check condition 
+
+else :
+->it is keyword 
+->always work on false condition
+->it does not make conditions
+
+syntax:
+if(condition){
+
+}
+else{
+
+
+}
+-------------------------------------------------
+#include<stdio.h>
+int main(){
+   int num;
+   printf("enter the value of num");
+   scanf("%d",&num);
+   if(num>10){
+       printf("this number is greater than 10");
+   }
+   else{
+      printf("this number is not greater than 10 ") ;
+   }
+    return 0;
+}
+-------------------------------------------------
+write a c program to check number is even or odd ? 
+
+even :divisible by 2 
+odd : does not divisible by 2 
+
+#include<stdio.h>
+int main(){
+  int num;
+  printf("enter the value of num");
+  scanf("%d",&num);
+  if(num%2==0){
+      printf("even number");
+  }
+  else{
+      printf("odd number");
+  }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

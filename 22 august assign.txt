@@ -1,0 +1,177 @@
+week days 
+---------------------------------------------------
+month print 
+
+----------------------------------------------------------
+a :apple 
+b :ball 
+c :cat
+d :dog 
+
+input is not valid 
+----------------------------------------------------------
+a :vowel 
+e :vowel 
+i :vowel
+o :vowel
+u :vowel
+
+input is not valid 
+----------------------------------------------------------
+q,w,e,r,t,y,u,i,o,p :upper line 
+
+a,s,d,f,g,h,j,k,l :mid line 
+
+z,x,c,v,b,n,m :lowe line 
+
+input is not valid 
+----------------------------------------------------------
+1--->10 :this number is present between 1 to 10 
+
+11--->20 :this number is present between 11 to 20
+
+21--->30 :this number is present between 21 to 30
+
+ input is not valid 
+----------------------------------------------------------
+a :
+	two number input 
+	addition 
+s :
+	two number input 
+	substraction 
+m :
+	two number input 
+	multiplication 
+
+d :
+	two number input 
+	division 
+
+input is not valid 
+
+-------------------------------------------------------
+ C program to enter student marks and find percentage and grade
+A college has the following rules for the grading system:
+5 marks (grade + %)
+1. Below 25 – F
+2. 25 to 45 – E
+3. 45 to 50 – D
+4. 50 to 60 – C
+5. 60 to 80 – B 
+6. Above 80 – A
+-------------------------------------------------------
+Write a java program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+Test Data :
+Input the Roll Number of the student :784
+student name : 
+fname:
+mname:
+address:
+contact:
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+total: 
+precentage : % 
+division:
+-------------------------------------------
+salalry :
+holidays (1) =full salary 
+2-5 =5% 
+5-14 =10% 
+15 =50% 
+else =not salary 
+
+output : 
+name:
+address: 
+bank details: 
+salary : 
+alot :
+ holidays 
+
+------------------------------------------------------------
+electric city bill : 
+4 unit 
+40 
+1- 10 = 10% 
+11-20 =15% 
+21-40 =30% 
+50 =50% 
+
+output : 
+name:
+unit :3 
+amout 30 
+discout : 10% 
+total pay amount : 
+
+#include<stdio.h>
+int main(){
+ int unit=4;
+ int pay=unit*10;
+ if(unit>=1 && unit<=10){
+     //calculation 
+ }
+    return 0;
+}
+-------------------------------------------------------------
+Write a C program to enter two numbers and perform all arithmetic operations.
+
+-------------------------------------------------------------
+
+Write a C program to enter length and breadth of a rectangle and find its
+perimeter.
+-------------------------------------------------------------
+
+
+Write a C program to enter length and breadth of a rectangle and find its area.
+
+-------------------------------------------------------------
+
+Write a C program to enter radius of a circle and find its diameter, circumference
+and area
+-------------------------------------------------------------
+
+Write a C program to enter length in centimeter and convert it into meter and
+kilometer.
+-------------------------------------------------------------
+
+Write a C program to find maximum between two numbers.
+-------------------------------------------------------------
+
+Write a C program to find maximum between three numbers
+-------------------------------------------------------------
+
+Write a C program to check whether a number is negative, positive or zero.
+-------------------------------------------------------------
+
+.Write a C program to input marks of five subjects Physics, Chemistry, Biology,
+Mathematics and Computer. Calculate percentage and grade according to
+following:
+Percentage >= 90% : Grade A
+Percentage >= 80% : Grade B
+Percentage >= 70% : Grade C
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E
+Percentage < 40% : Grade F
+
+-------------------------------------------------------------
+
+Write a C program to input basic salary of an employee and calculate its Gross
+salary according to following:
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary <= 20000 : HRA = 25%, DA = 90%
+Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+-------------------------------------------------------------
+
+Write a C program to input electricity unit charges and calculate total electricity
+bill according to the given condition:
+For first 50 units Rs. 0.50/unit
+For next 100 units Rs. 0.75/unit
+For next 100 units Rs. 1.20/unit
+For unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill
+-------------------------------------------------------------
+
+

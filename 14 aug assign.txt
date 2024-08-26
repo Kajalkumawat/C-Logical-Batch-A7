@@ -1,0 +1,4 @@
+1)swap number without third variable 
+
+
+2)swap number with third variable 
